@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.bg-lightblue{
+    background-color: #DCEAF5;
+}
+
+section{
+    padding: 6rem 0;
+}
+
+/* NAVITGATION STYLE */
+
+.main-nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav .brand-logo{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.nav-items{
+    display: flex;
+    list-style: none;
+}
+
+.nav-items li{
+    padding: 0 1rem;
+}
+
+/* LAYOUT */
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.align-center{
+    align-items: center;
+}
+.align-end{
+    align-items: flex-end;
+}
+
+img{
+    max-width: 100%;
+}
+
+.col-2{
+    width: calc(100%/2 - 40px);
+    flex-grow: 1
+}
+.col-3{
+    width: calc(100%/3 - 40px);
+    flex-grow: 1
+}
+
+/* HERO-SECTION */
+
+.hero-section{
+    padding: 0;
+}
+
+.hero-content h1{
+    font-size: 4rem;
+    margin-top: 0;
+}
+
+.partner-logos{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding: 0;
+}
+
+.hero-left{
+    align-self: center;
+}
+
+.hero-right img{
+    vertical-align: bottom;
+}
+
+/* SECTION-SOLUTION */
+
+.solution-heading{
+    margin-bottom: 2rem;
+}
+
+.solution-heading h2{
+    margin-top: 0;
+    font-size: 3rem;
+}
+
+.solution-card{
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+}
